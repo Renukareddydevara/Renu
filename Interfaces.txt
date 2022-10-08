@@ -1,0 +1,85 @@
+Interface :
+1. no class can be 100$ abstract. eventhough every 
+method is an abstract, class is not 100%
+ abstract. the reason is, there is concrete 
+constructor.
+2. abstract class can have any number of abstract 
+methods 
+including zero number of abstract methods
+1. interface can become a member of java file.
+2. class file is generating for an interface also 
+while compiling.
+1. interface can have any number of attributes.
+2. every attribute is a public, static and final by 
+default.
+3. every attribute should be initialized while 
+declaring itself.
+4. if any member is a public, static and also final, 
+then it is treated as a perfect constatnt.
+ all interface attributes are perfect constants.
+5. every attribute of an interface should be 
+initialized while declaring itself because of final.
+1. all interface attributes are public by default. no 
+need of public keyword explicitely.
+2. all interface attributes are static by default. no 
+need of static keyword explicitely.
+3. all interface attributes are final by default. no 
+need of final keyword explicitely.
+4. public, static, final can be in any order.
+1. every method of an interface is public and an 
+abstract by default.
+2. interface allows only abstract methods in case 
+of non static. Thats why abstract keyword 
+ is very optional.
+1.all members of an interface are public by default. 
+if we want to provode an access level explicitely, 
+then specify only public.
+we should not use any other access levels.
+1. construcor not allowed in the interface.
+2. IIB not allowed in the interface.
+3. SIB not allowed in the interface.
+4. non static method with an implementation not 
+allowed in the interface.
+5. interface can have only constants and an 
+abstract methods.
+ no concrete member (with a defination) allowed 
+in an interface.
+6. But in JDK1.8 new features introduced to an 
+interface.
+1. defined static methods can be incorporated.
+2. defined non static with default methods can 
+be incorporated.
+1. java file can have any number of class designs 
+and interface designs.
+2. if any member is a public, then file name should 
+be with a public member name.
+3. by default interface is not a public. 
+ but every members of an interface is public by 
+default.
+1. use implements while developing a class with an 
+interface.
+2. implements keyworld should be represented 
+through a dotted line from sub to super.
+3. extends keyworld should be represented 
+through a solid line from sub to super.
+4.all interface methods should be implemented in the 
+sub class. otherwise declare subclass 
+as an abstract.
+5.interface methods are public by default. 
+we should implement with a public keyword in the 
+sub class.
+1. class can implement any number of super 
+interfaces. its a multiple inheritance.
+2. java supports multiple inheritance only through 
+interfaces.
+3. java not supporting multiple inheritance through 
+classes.
+4. one class cant extend more than one super class.
+1. class to class is extends
+2. interface to interface is extends
+3. class to interface is implements.
+1. class can extends and implements. if both are 
+there, then order should be first extends and
+ then implements.
+2.attributes of an interface can be used straight 
+away through an interface name.
